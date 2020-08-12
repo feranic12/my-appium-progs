@@ -12,7 +12,7 @@ def fix(request):
 
 
 def test_vtbs_mobile(fix):
-    fix.open_mobile_page()
+    fix.open_mobile_frame()
     fix.fill_mobile_frame()
     input()
 
